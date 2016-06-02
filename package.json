@@ -1,6 +1,6 @@
 {
   "name": "require-with",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Dependency injection for Node.js",
   "private": false,
   "main": "index.js",
