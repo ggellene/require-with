@@ -1,0 +1,28 @@
+{
+  "name": "require-with",
+  "version": "0.0.0",
+  "description": "Dependency injection for Node.js",
+  "private": false,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ggellene/require-with.git"
+  },
+  "scripts": {
+    "build": "npm run build:lint",
+    "build:lint": "./node_modules/.bin/eslint ./",
+    "start": "node ./bin/www",
+    "test": "node jasmine.js"
+  },
+  "dependencies": {
+    "object-assign": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-plugin-jasmine": "^1.8.1",
+    "jasmine": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0"
+  },
+  "author": "Gregory Gellene",
+  "license": "GPL-3.0"
+}
