@@ -10,6 +10,8 @@ function requireWith(required, mocks) {
     return assign({}, result.exports, result.module.exports);
 }
 
+requireWith.context = context;
+
 function getModulePath(required){
     var isRelative = required.charAt(0) === '.';
     var isAbsolute = path.parse(required).root !== '';
